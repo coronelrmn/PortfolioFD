@@ -1,3 +1,134 @@
 *{
-    font-family: sans-serif;
+    font-family: 'Sen', sans-serif;
+    /* font-family: 'Righteous', cursive; */
+    font-weight: 100;
+    font-size: 20px;
+    background-color: #222;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #222;
+    border-bottom: 2px solid #e30;
+}
+
+.nav__left img{
+    height: 80px;
+    margin-left: 10px;
+}
+ 
+.nav__right{
+    display: flex;
+}
+
+.nav__right-social-icons a {
+    position: relative;
+    margin-right: 20px;
+    font-size: 29px;
+    color: #fff;
+}
+  
+.nav__right-social-icons a:hover {
+    color: #e30;
+    transition: color .5s;
+}
+
+.nav__right-login{
+    position: relative;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #fff;
+    color: #222;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.nav__right-login:hover {
+    background-color: #e30;
+    color: #fff;
+    transition: all .5s;
+}
+
+.perfil__container-banner{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid #fff; */
+}
+
+.perfil__container-banner-welcome{
+    position: absolute;
+    text-align: center;
+    top:30%;
+    left: 0;
+    right: 0;
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    user-select: none;
+}
+
+.perfil__container-avatar{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    background-color: #e30;
+    /* border: 1px solid #fff; */
+}
+
+.perfil__container-avatar img{
+    position: absolute;
+    width: 200px;
+    min-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    user-select: none;
+    background-color: #e30;
+}
+
+.perfil__container-avatar-texto-izq, .perfil__container-avatar-texto-der{
+    font-size: 50px;
+    white-space: nowrap;
+    user-select: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e30;
+    /* border: 1px solid #fff; */
+}
+
+.perfil__container-avatar-texto-izq{
+    text-align: left;
+    margin-right: 110px;
+}
+
+.perfil__container-avatar-texto-der{
+    text-align: right;
+    margin-left: 110px;
+}
+
+.perfil__container-acercade{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
+.perfil__container-acercade h2{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.perfil__container-acercade p{
+    padding: 0px 40px;
+    text-align: justify;
 }

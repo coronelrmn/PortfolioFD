@@ -4,9 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Sen&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b74d0d565.js" crossorigin="anonymous"></script>
     <title>Portfolio Maquetado</title>
 </head>
 <body>
-    <h1>Hola mundo</h1>
+    <nav>
+        <div class="nav__left">
+          <img src="https://desa.argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1674860780/APLogo-20-20.png" alt="logo">
+        </div>
+        <div class="nav__right">
+          <div class="nav__right-social-icons">
+            <a href="#facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/romancoronelok/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="#linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#github"><i class="fa fa-github"></i></a>
+          </div>
+          <button class="nav__right-login">Login</button>
+        </div>
+    </nav>
+
+    <div class="perfil__container">
+        <div class="perfil__container-banner">
+            <p class="perfil__container-banner-welcome">BIENVENIDO A MI PORTFOLIO</p>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+		    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+		    <defs>
+			<linearGradient id="bg">
+				<stop offset="0%" style="stop-color:#e30"></stop>
+				<stop offset="50%" style="stop-color:#e30"></stop>
+				<stop offset="100%" style="stop-color:#e30"></stop>
+			</linearGradient>
+			<path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+	        s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+		    </defs>
+		    <g>
+			    <use xlink:href='#wave' opacity=".3">
+				<animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="10s"
+                calcMode="spline"
+                values="270 230; -334 180; 270 230"
+                keyTimes="0; .5; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+			    </use>
+			    <use xlink:href='#wave' opacity=".6">
+				<animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="8s"
+                calcMode="spline"
+                values="-270 230;243 220;-270 230"
+                keyTimes="0; .6; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+			    </use>
+			    <use xlink:href='#wave' opacty=".9">
+				<animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="6s"
+                calcMode="spline"
+                values="0 230;-140 200;0 230"
+                keyTimes="0; .4; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+			    </use>
+		    </g>
+	        </svg>
+        </div>
+        <div class="perfil__container-avatar">
+            <img src="assets/img/person.jpg" id="avatar">
+            <div class="perfil__container-avatar-texto-izq">Román Andrés Coronel</div>
+            <div class="perfil__container-avatar-texto-der">Full Stack Developer Jr</div>
+        </div>
+        <div class="perfil__container-acercade"> 
+            <h2>Acerca de mi:</h2>
+            <p>Me apasiona el mundo de la tecnología y especialmente el desarrollo web, lo que me ha llevado a adquirir conocimientos en programación y diseño web.
+            Me comprometo con mis objetivos y busco siempre aprender cosas nuevas. Me considero un trabajador constante  comprometido con mi desarrollo profesional.
+            Además, he participado en diversos proyectos durante mi carrera universitaria, tanto en el ámbito académico como en proyectos personales. Esto me ha permitido adquirir habilidades de trabajo en equipo, comunicación y liderazgo.         
+            Estoy convencido de que mi pasión por la tecnología, mi formación en ingeniería en mecatrónica y mi experiencia en desarrollo web, puede    aportar mucho valor a cualquier empresa o proyecto.</p> </div>
+    </div>
+
 </body>
 </html>
