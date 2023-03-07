@@ -89,7 +89,7 @@ nav {
     min-width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid #333;
+    border: 5px solid #222;
     user-select: none;
     background-color: #e30;
 }
@@ -129,6 +129,37 @@ nav {
 }
 
 .perfil__container-acercade p{
-    padding: 0px 40px;
+    padding: 0px 40px 40px 40px;
     text-align: justify;
+}
+
+.educacion__container{
+    padding: 20px;
+    background-color: #e30;
+}
+
+.educacion__container-card{
+    display: flex;
+}
+
+.educacion__container-card-img img, .educacion__container-card-img, .educacion__container-card-body, .educacion__container-card-title, .educacion__container-card-subtitle, .educacion__container-card-text{
+    background-color: #e30;
+}
+
+.educacion__container-card-img{
+    display: flex;
+    width: 200px;
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #e30;
+}
+
+.educacion__container-card-body{
+    color: #fff;
+}
+
+.educacion__container-card-title{
+    font-weight: bold;
 }
